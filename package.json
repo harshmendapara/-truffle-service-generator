@@ -1,0 +1,45 @@
+{
+  "name": "truffle-web3-generator",
+  "version": "1.0.4",
+  "description": "utility to auto generate web3 functions for each truffle contract",
+  "main": "src/index.js",
+  "bin": {
+    "truffle-plugin/truffle-generate": "./bin/truffle-generate",
+    "truffle-generate": "./bin/truffle-generate"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "generate": "node ./index",
+    "test": "echo \"No test specified\""
+  },
+  "keywords": [
+    "truffle",
+    "web3",
+    "ethereum",
+    "generate",
+    "smartcontract",
+    "javascript"
+  ],
+  "author": "Harsh Mendapara <harshmendapara02@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "arg": "^4.1.0",
+    "esm": "^3.2.18",
+    "fs-extra": "^9.0.0",
+    "ncp": "^2.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Harsh02051998/-truffle-service-generator"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "truffle-plugin.json"
+  ]
+}
